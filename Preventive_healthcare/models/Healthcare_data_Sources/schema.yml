@@ -1,0 +1,13 @@
+version: 2
+
+sources:
+  - name: PREVENTIVE_HEALTHCARE
+    description: "Raw data sources"
+    database: PREVENTIVE_HEALTHCARE
+    schema: LENGTHOFSTAY
+    tables:
+      - name: ADMISSIONDETAILS
+      - name: DIAGNOSISPROCEDURES
+      - name: LABORATORYRESULTS
+      - name: PATIENTDETAILS
+      - name: VITALSIGNSOBSERVATIONS
