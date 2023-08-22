@@ -1,0 +1,13 @@
+snowflake:
+  outputs:
+    dev:
+      account: umboali-fg12487
+      database: PREVENTIVE_HEALTHCARE
+      password: Parkar@0123
+      role: ACCOUNTADMIN
+      schema: GOLD
+      threads: 10
+      type: snowflake
+      user: nikitadambhare
+      warehouse: COMPUTE_WH
+  target: dev
