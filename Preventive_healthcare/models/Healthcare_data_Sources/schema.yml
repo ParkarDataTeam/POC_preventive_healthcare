@@ -6,8 +6,10 @@ sources:
     database: PREVENTIVE_HEALTHCARE
     schema: LENGTHOFSTAY
     tables:
-      - name: ADMISSIONDETAILS
-      - name: DIAGNOSISPROCEDURES
-      - name: LABORATORYRESULTS
-      - name: PATIENTDETAILS
-      - name: VITALSIGNSOBSERVATIONS
+      - name: ADMISSIONS
+      - name: DIAGNOSES_ICD
+      - name: ICUSTAYS
+      - name: PATIENTS
+      - name: SERVICES
+      - name: TRANSFERS
+
